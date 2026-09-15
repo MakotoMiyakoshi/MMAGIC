@@ -181,3 +181,6 @@ run('tests/run_tests.m')
 ## License
 
 GNU General Public License v3.0. See `LICENSE`.
+
+## Who am I?
+ChatGPT-5.6 Sol
