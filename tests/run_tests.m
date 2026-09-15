@@ -1,6 +1,6 @@
-% RUN_TESTS Run the synthetic legacy-core test suite.
+% RUN_TESTS Run all synthetic MMAGIC tests.
 repoRoot = fileparts(fileparts(mfilename('fullpath')));
 addpath(fullfile(repoRoot, 'legacy'));
-results = runtests(fullfile(repoRoot, 'tests', 'test_legacy_core.m'));
+results = runtests(fullfile(repoRoot, 'tests'));
 disp(results)
 assert(all([results.Passed]), 'One or more tests failed.');
