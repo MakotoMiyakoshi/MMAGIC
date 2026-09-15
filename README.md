@@ -147,7 +147,7 @@ The package stops at ROI membership. Downstream analysis must explicitly choose 
 
 ## Scientific caveats
 
-- Equivalent dipole fitting can exhibit systematic localization and depth bias.
+- Equivalent dipole fitting can exhibit systematic localization and depth bias. For more details, see [this preprint.](https://www.medrxiv.org/content/10.64898/2026.01.23.26344529v2)
 - AAL is a macroscopic volumetric parcellation, not a generative EEG source model.
 - Direct voxel assignment depends on the declared rounding convention.
 - Atlas-boundary locations can be sensitive to nearest-voxel tie behavior.
